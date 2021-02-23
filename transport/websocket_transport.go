@@ -5,10 +5,10 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/daimons/go-protoo"
 	"github.com/go-logr/logr"
 	"github.com/gorilla/websocket"
 	"github.com/jiyeyuran/go-eventemitter"
-	"github.com/jiyeyuran/go-protoo"
 )
 
 type WebsocketTransport struct {
